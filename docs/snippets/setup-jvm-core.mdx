@@ -45,4 +45,5 @@ If you're using ProGuard or code obfuscation on JVM platforms, add these rules t
 ```proguard
 -keep class com.sun.jna.** { *; }
 -keep class * implements com.sun.jna.** { *; }
+-keep class * implements org.freedesktop.dbus.** { *; }
 ```
